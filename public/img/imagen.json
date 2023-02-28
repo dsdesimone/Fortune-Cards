@@ -1,0 +1,26 @@
+[
+  {
+    "img": "url('/img/bg1.jpg')",
+    "border": "4px solid #00dafc",
+    "shadow": "0px 0px 150px 1px #00dafc",
+    "color": "#00dafc"
+  },
+  {
+    "img": "url('/img/bg2.jpg')",
+    "border": "4px solid #cf0f0f",
+    "shadow": "0px 0px 150px 1px #cf0f0f",
+    "color": "#cf0f0f"
+  },
+  {
+    "img": "url('/img/bg3.jpg')",
+    "border": "4px solid #00329f",
+    "shadow": "0px 0px 150px 1px #00329f",
+    "color": "#00329f"
+  },
+  {
+    "img": "url('/img/bg4.jpg')",
+    "border": "4px solid #7a009f",
+    "shadow": "0px 0px 150px 1px #7a009f",
+    "color": "#7a009f"
+  }
+]

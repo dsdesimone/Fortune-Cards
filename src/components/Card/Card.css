@@ -1,0 +1,37 @@
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #131622;
+  border-radius: 5px 5px 22px 5px;
+  background-color: antiquewhite;
+  width: 450px;
+  height: 150px;
+  position: relative;
+}
+.card__phrase {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  position: relative;
+  padding: 10px;
+}
+.card__detail{
+  position: absolute;
+  height: 30px;
+  width: 22px;
+  rotate: 20deg;
+  border-top: 1px solid #131622;
+  border-left: 1px solid #131622;
+  border-top-left-radius: 5px;
+  bottom: -5px;
+  right: 3px;
+}
+@media (max-width: 500px) {
+  .card__container{
+    width: 360px;
+    height: 150px;
+  }
+  .card__phrase{
+    font-size: 16px;
+  }
+}
